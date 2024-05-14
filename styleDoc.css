@@ -52,6 +52,9 @@ A:hover{
 
 /*page footer style start*/
 footer{
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
 	background-color:#F1EB90;
 	padding: 15px;
 	padding-bottom: 60px;
@@ -62,6 +65,10 @@ footer{
 	gap: 10px;
 	color: grey;
 	}
+.footerLogo{
+	width:100px;
+	height:auto;
+}
 .footerMenuButton{
 	color:grey;
 	font-family: tohoma, sans-serif;

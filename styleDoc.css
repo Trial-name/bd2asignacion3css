@@ -39,6 +39,7 @@ A:hover{
 .headerMenuButton{
 	color:black;
 	align: center;
+	font-family: Tahoma, sans-serif;
 }
 #homeNavButton{
 	border-bottom: 2px solid black;
@@ -50,5 +51,20 @@ A:hover{
 /*page body style end*/
 
 /*page footer style start*/
-
+footer{
+	background-color:#F1EB90;
+	padding: 15px;
+	padding-bottom: 60px;
+}
+#footerMenu{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	color: grey;
+	}
+.footerMenuButton{
+	color:grey;
+	font-family: tohoma, sans-serif;
+	font-size: 14px;
+}
 /*page footer style end*/

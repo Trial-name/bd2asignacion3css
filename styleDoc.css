@@ -1,0 +1,54 @@
+/*gener style items*/
+body{
+	margin: 0;
+}
+A{
+	text-decoration:none;
+	font-weight: bold;
+}
+A:hover{
+	color: white;
+}
+/*general style items end*/
+
+/*page header style start*/
+#homeBanner{
+	position: relative;
+	max-width: 100%;
+
+	background-image: url(images/general-use/banner.png);
+	background-position: center;
+	background-size: cover;
+
+	display: flex;
+	align-items: center;
+}
+#logoImage{
+	width: 170px;
+	height: 170px;
+	margin: auto;
+	display: block;
+}
+#headerMenu{
+	display:flex;
+	flex-direction:row;
+	gap:30px;
+	justify-content:center;
+	background-color:#F3B664;
+}
+.headerMenuButton{
+	color:black;
+	align: center;
+}
+#homeNavButton{
+	border-bottom: 2px solid black;
+}
+/*page header style end*/
+
+/*page body style start*/
+
+/*page body style end*/
+
+/*page footer style start*/
+
+/*page footer style end*/
